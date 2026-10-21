@@ -1,0 +1,81 @@
+body {
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 800px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+header {
+    background-color: #1a202c;
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+h1{
+    color: white;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+}
+h1 span {
+    color: red;
+    background-color: transparent;
+}
+nav {
+    display: inline-block;
+    width: 58%;
+    text-align: right;
+}
+h2{
+    color: #f00;
+}
+h3{
+    color: black;
+}
+p.marcas{
+    color: blueviolet;
+    font-size: 16px;
+}
+blockquote{
+    color: white;
+    text-align: center;
+    background-color: gray;
+    border: 4px green solid;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+p{
+    margin-left: 0px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+ol{
+    padding: 0%;
+    margin: 0%;
+}
+li{
+    background-color: transparent;
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    padding: 5px 0;
+    
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+del{
+    color: red;
+}
+ins{
+    color: red;
+}
