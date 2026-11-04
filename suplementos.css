@@ -1,17 +1,25 @@
+html {
+    background-image: url('imagenes/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 body {
     border: 1px solid #000;
     margin: 0 auto;
     width: 800px;
     padding: 0 10px;
     font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.7); 
 }
+
 header {
     background-color: #1a202c;
     padding: 10px;
     margin-left: -10px;
     margin-right: -10px;
 }
-
 
 h1{
     color: white;
@@ -23,25 +31,31 @@ h1{
     display: inline-block;
     width: 40%;
 }
+
 h1 span {
     color: red;
     background-color: transparent;
 }
+
 nav {
     display: inline-block;
     width: 58%;
     text-align: right;
 }
-h2{
-    color: #f00;
+
+h2 {
+    color: #cc0000;
 }
-h3{
-    color: black;
+
+h3 {
+    color: #1a202c;
 }
-p.marcas{
-    color: blueviolet;
+
+p.marcas {
+    color: #4a00e0;
     font-size: 16px;
 }
+
 blockquote{
     color: white;
     text-align: center;
@@ -51,31 +65,36 @@ blockquote{
     margin: auto;
     padding: 10px;
 }
+
 p{
     margin-left: 0px;
-    background-color: white;
     padding: 10px;
     text-align: center;
+    background-color: transparent; /* Evita bloques blancos opacos extra */
 }
+
 ol{
     padding: 0%;
     margin: 0%;
 }
+
 li{
     background-color: transparent;
     display: inline-block;
     width: 22%;
     text-align: center;
     padding: 5px 0;
-    
 }
+
 a{
     color: blue;
     text-decoration: none;
 }
+
 del{
     color: red;
 }
+
 ins{
     color: red;
 }
